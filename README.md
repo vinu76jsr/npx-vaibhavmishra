@@ -4,4 +4,4 @@
 npx bradwestfall
 ```
 
-All credit for this idea got to: https://github.com/bnb/bitandbang
+All credit for this idea goes to: https://github.com/bnb/bitandbang

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // 👆 Used to tell Node.js that this is a CLI tool
 
-// All credit for this idea got to: https://github.com/bnb/bitandbang
+// All credit for this idea goes to: https://github.com/bnb/bitandbang
 
 // Pull in our modules
 const chalk = require('chalk')
