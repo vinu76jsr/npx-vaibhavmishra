@@ -40,7 +40,6 @@ const consulting = `${data.labelConsulting}  ${data.consulting}`
 const training = `${data.labelTraining}  ${data.training}`
 const personal = `${data.labelPersonal}  ${data.personal}`
 
-
 // Put all our output together into a single variable so we can use boxen effectively
 const output = heading + '\n\n' +
   working + '\n' +
