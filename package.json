@@ -6,6 +6,9 @@
   "bin": {
     "bitandbang": "./bin/card.js"
   },
+  "scripts": {
+    "card": "node ./bin/card.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/bradwestfall/npx-bradwestfall.git"

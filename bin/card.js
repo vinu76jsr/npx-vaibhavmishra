@@ -16,8 +16,8 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('Brad Westfall /'),
-  handle: chalk.cyan('bradwestfall'),
+  name: chalk.white('Brad Westfall'),
+  email: chalk.cyan('brad@azpixels.com'),
   work: chalk.white('JavaScript/React and CSS: Consulting and Training'),
   twitter: chalk.cyan('https://twitter.com/bradwestfall'),
   github: chalk.cyan('https://github.com/bradwestfall'),
@@ -36,7 +36,7 @@ const data = {
 }
 
 // Actual strings we're going to output
-const heading = `${data.name} ${data.handle}`
+const heading = `${data.name} ${data.email}`
 const working = `${data.labelWork}  ${data.work}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const githubing = `${data.labelGitHub}  ${data.github}`
