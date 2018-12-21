@@ -1,6 +1,6 @@
 {
   "name": "bradwestfall",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A personal card for Brad Westfall (@bradwestfall)",
   "main": "index.js",
   "bin": {
