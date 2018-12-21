@@ -21,9 +21,9 @@ const data = {
   work: chalk.white('JavaScript/React and CSS: Consulting and Training'),
   twitter: chalk.cyan('https://twitter.com/bradwestfall'),
   github: chalk.cyan('https://github.com/bradwestfall'),
-  consulting: chalk.cyan('https://azpixels.com'),
+  consulting: chalk.cyan('http://azpixels.com'),
   training: chalk.cyan('https://reacttraining.com'),
-  personal: chalk.cyan('https://bradwestfall.com'),
+  personal: chalk.cyan('http://bradwestfall.com'),
   card: chalk.cyan('https://github.com/bradwestfall/npx-bradwestfall'),
 
   labelWork: chalk.white.bold('       Work:'),
