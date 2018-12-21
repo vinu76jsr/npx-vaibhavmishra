@@ -1,0 +1,23 @@
+{
+  "name": "bradwestfall",
+  "version": "1.1.0",
+  "description": "A personal card for Brad Westfall (@bradwestfall)",
+  "main": "index.js",
+  "bin": {
+    "bitandbang": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bradwestfall/npx-bradwestfall.git"
+  },
+  "keywords": [],
+  "author": "Brad Westfall",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
