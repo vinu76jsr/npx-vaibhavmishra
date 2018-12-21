@@ -18,12 +18,13 @@ const options = {
 const data = {
   name: chalk.white('Brad Westfall /'),
   handle: chalk.cyan('bradwestfall'),
-  work: chalk.white('JavaScript and CSS Developer/Consultant/Trainer'),
+  work: chalk.white('JavaScript/React and CSS: Consulting and Training'),
   twitter: chalk.cyan('https://twitter.com/bradwestfall'),
   github: chalk.cyan('https://github.com/bradwestfall'),
   consulting: chalk.cyan('https://azpixels.com'),
   training: chalk.cyan('https://reacttraining.com'),
   personal: chalk.cyan('https://bradwestfall.com'),
+  card: chalk.cyan('https://github.com/bradwestfall/npx-bradwestfall'),
 
   labelWork: chalk.white.bold('       Work:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
@@ -31,6 +32,7 @@ const data = {
   labelConsulting: chalk.white.bold(' Consulting:'),
   labelTraining: chalk.white.bold('   Training:'),
   labelPersonal: chalk.white.bold('   Personal:'),
+  labelCard: chalk.white.bold('       Card:'),
 }
 
 // Actual strings we're going to output
@@ -41,6 +43,7 @@ const githubing = `${data.labelGitHub}  ${data.github}`
 const consulting = `${data.labelConsulting}  ${data.consulting}`
 const training = `${data.labelTraining}  ${data.training}`
 const personal = `${data.labelPersonal}  ${data.personal}`
+const card = `${data.labelCard}  ${data.card}`
 
 // Put all our output together into a single variable so we can use boxen effectively
 const output = heading + '\n\n' +
@@ -49,6 +52,7 @@ const output = heading + '\n\n' +
   githubing + '\n' +
   consulting + '\n' +
   training + '\n' +
-  personal
+  personal + '\n' +
+  card
 
 console.log(chalk.green(boxen(output, options)))
