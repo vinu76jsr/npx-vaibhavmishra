@@ -1,7 +1,7 @@
 {
-  "name": "bradwestfall",
-  "version": "1.0.4",
-  "description": "A personal card for Brad Westfall (@bradwestfall)",
+  "name": "vaibhavmishra",
+  "version": "1.0.0",
+  "description": "A personal card for Vaibhav Mishra (@vinu76jsr)",
   "main": "index.js",
   "bin": {
     "bitandbang": "./bin/card.js"
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bradwestfall/npx-bradwestfall.git"
+    "url": "https://github.com/vinu76jsr/npx-vaibhavmishra.git"
   },
   "keywords": [],
-  "author": "Brad Westfall",
+  "author": "Vaibhav Mishra",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
