@@ -18,7 +18,7 @@ const options = {
 const data = {
   name: chalk.white('Vaibhav Mishra'),
   email: chalk.cyan('contact@vaibhavmishra.com'),
-  work: chalk.white('Full Stack Engineer - Microsoft'),
+  work: chalk.white('Software Engineer - Booking.com'),
   twitter: chalk.cyan('https://twitter.com/vinu76jsr'),
   github: chalk.cyan('https://github.com/vinu76jsr'),
 //   consulting: chalk.cyan('http://azpixels.com'),
